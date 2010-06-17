@@ -89,7 +89,7 @@ config :documentation,
   :required => [:desktop, :animation]
 
 # CONFIGURE APPS
-config :core_tools, :required => [:desktop, :animation, :forms]
+config :core_tools, :required => [:desktop, :datastore, :animation, :forms]
 
 # mode :debug do
 #   config :core_tools, :combine_javascript => false
